@@ -4,9 +4,45 @@
   display: none;
 }
 
+h1.header-title {
+  display: none;
+}
+
+div.basic-layout div.anvil-webform-page {
+  background-color: #fff;
+}
+
+div.basic-layout input.ant-input.anvil-input {
+  border: 1px solid #dcdde2;
+  border-radius: 5px;
+}
+
+div.basic-layout
+  .anvil-field:not(.ant-form-item-has-error):not(
+    .ant-form-item-has-error .anvil-field
+  )
+  .anvil-input:hover,
+.anvil-field:not(.ant-form-item-has-error):not(
+    .ant-form-item-has-error .anvil-field
+  )
+  .anvil-input:active {
+  border-color: #4f46e5;
+}
+
+div.basic-layout .ant-picker-input > input:hover {
+  border: none !important;
+}
+
+div.basic-layout input:checked {
+  background-color: #4f46e5;
+}
+
 body,
 .forge-flow {
-  font-family: "Open Sans", sans-serif;
+  font-family: Inter var, ui-sans-serif, system-ui, -apple-system,
+    BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans",
+    sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+    "Noto Color Emoji";
   background-color: #fff;
 }
 
@@ -74,7 +110,7 @@ body .ant-form-item-has-error .ant-input:focus {
 .ant-btn.ant-btn-link:active {
   color: #4f46e5;
 }
-
+/* 
 .anvil-button-bar {
   display: none !important;
-}
+} */

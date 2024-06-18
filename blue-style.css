@@ -1,23 +1,24 @@
-@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
-
 .anvil-webform-step-bar a {
   display: none;
 }
 
-h1.header-title {
+h1#header-title {
   display: none;
 }
 
-div.basic-layout div.anvil-webform-page {
+h2#page-title {
+  display: none;
+}
+
+div.forge-flow div.anvil-webform-page {
   background-color: #fff;
 }
 
-div.basic-layout input.ant-input.anvil-input {
-  border: 1px solid #dcdde2;
+div.forge-flow .anvil-input.ant-input {
   border-radius: 5px;
 }
 
-div.basic-layout
+div.forge-flow
   .anvil-field:not(.ant-form-item-has-error):not(
     .ant-form-item-has-error .anvil-field
   )
@@ -29,11 +30,11 @@ div.basic-layout
   border-color: #4f46e5;
 }
 
-div.basic-layout .ant-picker-input > input:hover {
+div.forge-flow .ant-picker-input > input:hover {
   border: none !important;
 }
 
-div.basic-layout input:checked {
+div.forge-flow input:checked {
   background-color: #4f46e5;
 }
 
@@ -58,10 +59,16 @@ body,
   padding-bottom: 8px;
 }
 
-.form-group label > span {
-  color: #7b858e;
+.form-group-header label > span {
+  color: #000;
   font-size: 14px;
-  font-weight: 600;
+  font-weight: normal;
+}
+
+.form-group label > span {
+  color: #000;
+  font-size: 14px;
+  font-weight: normal;
 }
 
 .form-group input {
@@ -76,7 +83,8 @@ button.circle-icon-button-container[disabled] .button-circle {
 }
 
 .forge-flow > div:last-child {
-  background: #f8f8f8;
+  background: #fff;
+  border-top: 1px solid #dcdde2;
   box-shadow: none;
 }
 

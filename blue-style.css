@@ -76,5 +76,5 @@ body .ant-form-item-has-error .ant-input:focus {
 }
 
 .anvil-button-bar {
-  display: none;
+  display: none !important;
 }

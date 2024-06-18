@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 
-a {
+.anvil-webform-step-bar a[href="https://www.useanvil.com/"]
+{
   display: none;
 }
 
@@ -54,7 +55,7 @@ body .ant-form-item-has-error .ant-input:focus {
 }
 
 .form-group input:focus {
-  border: 1px solid #4f46e5;
+  border: 1px solid #4f46e5 !important;
   background-color: #f5f7fe;
 }
 

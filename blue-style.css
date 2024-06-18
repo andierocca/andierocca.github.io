@@ -6,16 +6,22 @@ h1#header-title {
   display: none;
 }
 
-h2#page-title {
+div.secondary-button-container {
   display: none;
+}
+
+h2#page-title {
+  font-size: 18px;
+  font-weight: 600;
+  color: #303439;
 }
 
 div.forge-flow div.anvil-webform-page {
   background-color: #fff;
 }
 
-div.forge-flow .anvil-input.ant-input {
-  border-radius: 5px;
+div.basic-layout div.forge-flow .anvil-input.ant-input {
+  border-radius: 5px !important;
 }
 
 div.forge-flow
@@ -60,22 +66,15 @@ body,
 }
 
 .form-group-header label > span {
-  color: #000;
   font-size: 14px;
   font-weight: normal;
+  color: #303439;
 }
 
 .form-group label > span {
-  color: #000;
   font-size: 14px;
   font-weight: normal;
-}
-
-.form-group input {
-  border: 1px solid #dcdde2;
-  border-radius: 5px;
-  font-size: 14px;
-  padding: 10px 15px;
+  color: #303439;
 }
 
 button.circle-icon-button-container[disabled] .button-circle {
@@ -98,7 +97,8 @@ body .ant-form-item-has-error .ant-input:focus {
 }
 
 .form-group input:focus {
-  border: 1px solid #4f46e5 !important;
+  border: 1.5px solid #4f46e5 !important;
+  box-shadow: none !important;
   background-color: #f5f7fe;
 }
 

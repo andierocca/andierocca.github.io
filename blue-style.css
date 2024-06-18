@@ -1,7 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap");
 
-.anvil-webform-step-bar a[href="https://www.useanvil.com/"]
-{
+.anvil-webform-step-bar a {
   display: none;
 }
 

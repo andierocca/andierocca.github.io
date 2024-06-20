@@ -31,7 +31,7 @@ div#root div[cy="loadingOverlay"] {
   fill: #4f46e5;
 }
 
-div.basic-layout div.forge-flow .ant-select {
+div.basic-layout div.forge-flow .ant-select-selector {
   border-radius: 5px !important;
 }
 
@@ -108,14 +108,13 @@ button.circle-icon-button-container[disabled] .button-circle {
   box-shadow: none;
 }
 
-body .ant-input:hover,
+/* body .ant-input:hover,
 body .ant-input:focus,
 body .ant-input:active,
 body .ant-form-item-has-error .ant-input:hover,
 body .ant-form-item-has-error .ant-input:active,
 body .ant-form-item-has-error .ant-input:focus {
-  border-right-width: 1px !important;
-}
+} */
 
 .form-group input:focus {
   border: 1.5px solid #4f46e5 !important;
@@ -124,7 +123,7 @@ body .ant-form-item-has-error .ant-input:focus {
 }
 
 .ant-btn {
-  border-radius: 5px;
+  background: #4f46e5 !important;
 }
 
 .ant-btn.ant-btn-cta,

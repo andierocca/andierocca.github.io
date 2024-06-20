@@ -20,8 +20,29 @@ div.forge-flow div.anvil-webform-page {
   background-color: #fff;
 }
 
+div#root .loading-spinner {
+  border-left: 4px solid #4f46e5;
+}
+div#root div[cy="loadingOverlay"] {
+  border-left: 4px solid #4f46e5 !important;
+}
+
+.anvil-review-data-card-item svg path {
+  fill: #4f46e5;
+}
+
+div.basic-layout div.forge-flow .ant-select {
+  border-radius: 5px !important;
+}
+
 div.basic-layout div.forge-flow .anvil-input.ant-input {
   border-radius: 5px !important;
+}
+
+div.forge-flow .ant-btn.ant-btn-link,
+.ant-btn.ant-btn-link:hover,
+.ant-btn.ant-btn-link:active {
+  color: #4f46e5 !important;
 }
 
 div.forge-flow
@@ -113,11 +134,6 @@ body .ant-form-item-has-error .ant-input:focus {
   color: white;
 }
 
-.ant-btn.ant-btn-link,
-.ant-btn.ant-btn-link:hover,
-.ant-btn.ant-btn-link:active {
-  color: #4f46e5;
-}
 /* 
 .anvil-button-bar {
   display: none !important;

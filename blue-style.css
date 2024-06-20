@@ -103,6 +103,12 @@ button.circle-icon-button-container[disabled] .button-circle {
   background: transparent !important;
 }
 
+div.circle-icon-button-container:not([disabled]),
+div.circle-icon-button-container:hover:not([disabled]),
+div.circle-icon-button-container:focus:not([disabled]) {
+  background: #4f46e5 !important;
+}
+
 .forge-flow > div:last-child {
   background: #fff;
   border-top: 1px solid #dcdde2;
